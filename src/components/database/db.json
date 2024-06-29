@@ -10,7 +10,7 @@
     {
       "id": "5",
       "name": "Chocolate Chip Cookies ",
-      "description": "Chocolate ipsum dolor sit amet, consectetur adipiscing elit. Praesent ut lasdsdsdcus rhoncus, vulputate urna aliquet, semper ex. rhoncus rhoncus",
+      "description": "Chocolate ipsum dolor ",
       "price": "5634.99",
       "imageUrl": "https://imagesvc.meredithcorp.io/v3/mm/image?url=https%3A%2F%2Fstatic.onecms.io%2Fwp-content%2Fuploads%2Fsites%2F43%2F2019%2F12%2Fbest-chocolate-chip-cookies.jpg&w=300&h=201&c=sc&poi=face&q=85"
     },
@@ -27,6 +27,34 @@
       "price": "12",
       "description": "A Purple Cake With Figs is a choice for all when it comes to birthday parties. If the birthday person has a love for figs and dark color, send them this cake on WhatsApp with their name on the top. With this, they will know how eagerly you are waiting to meet them and cut an actual post-birthday cake.",
       "imageUrl": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcTHE0y8U3BE21M8PJzvv6rUKWOvyCbeDKeVOXh99eZSyHIEhQ8r"
+    },
+    {
+      "id": "b7d4",
+      "name": "Buckeye Brownies",
+      "description": "If you love buckeyes (or Reese’s Cups), you’ll go nuts for these thick, fudgy buckeye brownies. They’re full of rich peanut butter and chocolate flavor with a soft, chewy brownie underneath. They are — dare I say it — pure decadence in a pan.",
+      "price": "25",
+      "imageUrl": "https://insanelygoodrecipes.com/wp-content/uploads/2021/09/Sweet-Buckeye-Brownies-with-Peanut-Butter-and-Decadent-Chocolate.jpg"
+    },
+    {
+      "id": "80de",
+      "name": "Peanut Butter Cookies",
+      "description": "When it comes to easy dessert recipes, you can’t go wrong with homemade cookies. Especially homemade cookies that require only three ingredients! That’s all you’ll need to make these buttery soft peanut butter cookies. Just three ingredients, specifically butter, peanut butter, and sugar.",
+      "price": "28",
+      "imageUrl": "https://insanelygoodrecipes.com/wp-content/uploads/2021/10/Soft-and-Chewy-Peanut-Butter-Cookies.jpg"
+    },
+    {
+      "id": "471b",
+      "name": "White Chocolate Blondies",
+      "description": "I bet you can’t stick with eating just one of these white chocolate blondies. Chewy, fudgy, caramel-y, and chocolatey, they’re divine. One bite and you’ll fall head over heels.",
+      "price": "77",
+      "imageUrl": "https://insanelygoodrecipes.com/wp-content/uploads/2024/03/Stack-of-White-Chocolate-Blondies.jpg"
+    },
+    {
+      "id": "5e6b",
+      "name": "Amish Caramel Corn",
+      "description": "Freshly popped popcorn gets coated in a rich, sweet, and buttery caramel glaze. Add some slivered almonds for an extra crunch.",
+      "price": "56",
+      "imageUrl": "https://insanelygoodrecipes.com/wp-content/uploads/2022/06/Caramel-Popcorn-Close-up.jpg"
     }
   ]
 }

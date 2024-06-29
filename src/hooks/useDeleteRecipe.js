@@ -14,7 +14,7 @@ const useDeleteRecipe = () => {
 
   const handleDeleteConfirm = async (updateRecipes, updateFilteredRecipes) => {
     try {
-      await axios.delete(`http://localhost:3000/desserts/${currentRecipe.id}`);
+      await axios.delete(`http://localhost:5000/desserts/${currentRecipe.id}`);
       updateRecipes((prevRecipes) =>
         prevRecipes.filter((recipe) => recipe.id !== currentRecipe.id)
       );
@@ -43,4 +43,3 @@ const useDeleteRecipe = () => {
 };
 
 export default useDeleteRecipe;
-

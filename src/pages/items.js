@@ -30,7 +30,7 @@ const Items = () => {
 
   const fetchRecipes = async () => {
     try {
-      const response = await axios.get("http://localhost:3000/desserts");
+      const response = await axios.get("http://localhost:5000/desserts");
       setRecipes(response.data);
       setFilteredRecipes(response.data);
     } catch (error) {
@@ -87,11 +87,9 @@ const Items = () => {
           onConfirm={() => handleDeleteConfirm(setRecipes, setFilteredRecipes)}
           onClose={handleDeleteCancel}
         />
-      
       </Modal>
     </>
   );
 };
 
 export default Items;
-

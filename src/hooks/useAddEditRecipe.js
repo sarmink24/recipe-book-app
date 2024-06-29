@@ -15,7 +15,7 @@ const useAddEditRecipe = (initialRecipe = null) => {
       let response;
       if (recipe.id) {
         response = await axios.put(
-          `http://localhost:3000/desserts/${recipe.id}`,
+          `http://localhost:5000/desserts/${recipe.id}`,
           recipe
         );
         updateRecipes((prevRecipes) =>
@@ -25,7 +25,7 @@ const useAddEditRecipe = (initialRecipe = null) => {
           prevRecipes.map((r) => (r.id === recipe.id ? response.data : r))
         );
       } else {
-        response = await axios.post("http://localhost:3000/desserts", recipe);
+        response = await axios.post("http://localhost:5000/desserts", recipe);
         updateRecipes((prevRecipes) => [...prevRecipes, response.data]);
         updateFilteredRecipes((prevRecipes) => [...prevRecipes, response.data]);
       }
@@ -48,5 +48,3 @@ const useAddEditRecipe = (initialRecipe = null) => {
 };
 
 export default useAddEditRecipe;
-
-

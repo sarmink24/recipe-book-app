@@ -16,6 +16,10 @@
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow for elevation */
 }
 
+.recipe-details {
+  min-height: 13rem;
+}
+
 /* Recipe Image */
 .recipe img {
   width: 100%;
@@ -23,6 +27,15 @@
   object-fit: contain;
   border-top-left-radius: 10px; /* Rounded top corners */
   border-top-right-radius: 10px;
+}
+
+.read-more {
+  background-color: white;
+  color: red;
+  border: none;
+  border-radius: 5px;
+  padding: 5px 10px;
+  cursor: pointer;
 }
 
 /* Recipe Title and Price */
@@ -51,19 +64,8 @@
 
 .actions-button {
   display: flex; /* Align buttons horizontally */
-  gap: 0.5rem; /* Space between buttons */
+  gap: 1rem; /* Space between buttons */
   padding: 10px; /* Padding around buttons container */
-}
-
-/* General Button Styles */
-.recipe button {
-  background-color: white;
-  color: #333;
-  border: 2px solid #ddd;
-  border-radius: 5px;
-  padding: 5px 10px;
-  cursor: pointer;
-  transition: background-color 0.3s, color 0.3s;
 }
 
 /* Detail Button Styles */
@@ -72,29 +74,15 @@
   color: white;
 }
 
-.recipe .edit-b:hover {
-  background-color: #0056b3;
-}
 
-/* Edit Button Styles */
-.recipe .edit-b {
-  background-color: #0056b3;
-  color: white;
-}
-
-.recipe .edit-b:hover {
-  background-color: #0056b3;
-}
 
 /* Delete Button Styles */
 .recipe .delete-b {
-  background-color: #dc3545;
+  background-color: red;
   color: white;
 }
 
-.recipe .delete-b:hover {
-  background-color: #c82333;
-}
+
 
 /* Responsive Design */
 @media screen and (max-width: 768px) {

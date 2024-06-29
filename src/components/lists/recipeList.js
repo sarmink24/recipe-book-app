@@ -37,13 +37,19 @@ const RecipeList = ({ recipes, onEdit, onDelete }) => {
                 </h3>
                 <h3 className="title">{recipe.name}</h3>
               </div>
+
               <p>
                 {expandedId === recipe.id
                   ? recipe.description
-                  : `${recipe.description.slice(0, 40)}... `}
-                <button onClick={() => toggleDescription(recipe.id)}>
-                  {expandedId === recipe.id ? "Read Less" : "Read More"}
-                </button>
+                  : `${recipe.description.slice(0, 119)}`}
+                {recipe.description.length > 120 && (
+                  <button
+                    className="read-more"
+                    onClick={() => toggleDescription(recipe.id)}
+                  >
+                    {expandedId === recipe.id ? "Read Less" : "...Read More"}
+                  </button>
+                )}
               </p>
             </div>
             <div className="actions-button">
