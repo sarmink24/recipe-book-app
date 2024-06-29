@@ -21,7 +21,7 @@ const Details = () => {
     currentRecipe,
     isModalOpen,
     handleEdit,
-    saveRecipe,
+    addEditRecipe,
     setIsModalOpen,
     setCurrentRecipe,
   } = useAddEditRecipe(recipe);
@@ -49,7 +49,7 @@ const Details = () => {
       <Modal isOpen={isModalOpen} onClose={() => setIsModalOpen(false)}>
         <RecipeForm
           onSave={(recipe) =>
-            saveRecipe(recipe, setRecipes, setFilteredRecipes)
+            addEditRecipe(recipe, setRecipes, setFilteredRecipes)
           }
           initialRecipe={currentRecipe}
         />
@@ -66,5 +66,3 @@ const Details = () => {
 };
 
 export default Details;
-
-

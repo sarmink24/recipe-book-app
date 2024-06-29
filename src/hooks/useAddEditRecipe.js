@@ -10,7 +10,11 @@ const useAddEditRecipe = (initialRecipe = null) => {
     setIsModalOpen(true);
   };
 
-  const saveRecipe = async (recipe, updateRecipes, updateFilteredRecipes) => {
+  const addEditRecipe = async (
+    recipe,
+    updateRecipes,
+    updateFilteredRecipes
+  ) => {
     try {
       let response;
       if (recipe.id) {
@@ -41,7 +45,7 @@ const useAddEditRecipe = (initialRecipe = null) => {
     currentRecipe,
     isModalOpen,
     handleEdit,
-    saveRecipe,
+    addEditRecipe,
     setIsModalOpen,
     setCurrentRecipe,
   };

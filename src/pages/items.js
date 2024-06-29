@@ -17,7 +17,7 @@ const Items = () => {
     currentRecipe,
     isModalOpen,
     handleEdit,
-    saveRecipe,
+    addEditRecipe,
     setIsModalOpen,
     setCurrentRecipe,
   } = useAddEditRecipe();
@@ -77,7 +77,7 @@ const Items = () => {
       <Modal isOpen={isModalOpen} onClose={() => setIsModalOpen(false)}>
         <RecipeForm
           onSave={(recipe) =>
-            saveRecipe(recipe, setRecipes, setFilteredRecipes)
+            addEditRecipe(recipe, setRecipes, setFilteredRecipes)
           }
           initialRecipe={currentRecipe}
         />
