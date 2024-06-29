@@ -1,0 +1,32 @@
+{
+  "desserts": [
+    {
+      "id": "3",
+      "name": "Chocolate Vanilla Pie",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent ut lacus rhoncus, vulputate urna aliquet, semper ex.hjgfjhgkyfjg",
+      "price": "75",
+      "imageUrl": "https://imagesvc.meredithcorp.io/v3/mm/image?url=https%3A%2F%2Fstatic.onecms.io%2Fwp-content%2Fuploads%2Fsites%2F43%2F2018%2F04%2F13%2F729302_cropped.jpg&w=426&h=285&c=sc&poi=face&q=85"
+    },
+    {
+      "id": "5",
+      "name": "Chocolate Chip Cookies ",
+      "description": "Chocolate ipsum dolor sit amet, consectetur adipiscing elit. Praesent ut lasdsdsdcus rhoncus, vulputate urna aliquet, semper ex. rhoncus rhoncus",
+      "price": "5634.99",
+      "imageUrl": "https://imagesvc.meredithcorp.io/v3/mm/image?url=https%3A%2F%2Fstatic.onecms.io%2Fwp-content%2Fuploads%2Fsites%2F43%2F2019%2F12%2Fbest-chocolate-chip-cookies.jpg&w=300&h=201&c=sc&poi=face&q=85"
+    },
+    {
+      "id": "c6b2",
+      "name": "Midnight Velvet Cake",
+      "description": "Dive into decadence with the Midnight Velvet Cake, a luxurious treat that marries the rich darkness of velvety chocolate with the delicate sweetness of mascarpone cream. ",
+      "price": "6",
+      "imageUrl": "https://amycakesbakes.com/wp-content/uploads/2022/01/Moist-Mini-Red-Velvet-Cake-by-Amycakes-Bakes.jpg"
+    },
+    {
+      "id": "902d",
+      "name": "Purple Cake With Figs",
+      "price": "12",
+      "description": "A Purple Cake With Figs is a choice for all when it comes to birthday parties. If the birthday person has a love for figs and dark color, send them this cake on WhatsApp with their name on the top. With this, they will know how eagerly you are waiting to meet them and cut an actual post-birthday cake.",
+      "imageUrl": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcTHE0y8U3BE21M8PJzvv6rUKWOvyCbeDKeVOXh99eZSyHIEhQ8r"
+    }
+  ]
+}

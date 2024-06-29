@@ -1,0 +1,58 @@
+
+  .header {
+    padding: 1rem 8rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 10px;
+  }
+  
+  .search-div {
+    flex: 1; /* Takes remaining space */
+    margin-right: 10px; /* Adjust margin between SearchBar and Add button */
+  }
+  
+  .add-button {
+    flex-shrink: 0; /* Prevents button from shrinking */
+  }
+  
+  .add-button button {
+    padding: 8px 16px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 4px;
+  }
+  
+  .add-button button:hover {
+    background-color: #0056b3;
+  }
+  
+  .add-icon {
+    margin-right: 5px;
+  }
+  
+  
+  button.button {
+    padding: 10px 20px;
+    font-size: 1rem;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  button.button:hover {
+    background-color: #0056b3;
+  }
+  
+  @media screen and (max-width: 600px) {
+    button.button {
+      padding: 8px 16px;
+      font-size: 0.9rem;
+    }
+  }
+  

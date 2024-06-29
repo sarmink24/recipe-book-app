@@ -1,0 +1,138 @@
+.dessert {
+    display: flex;
+    width: 100%;
+    flex-direction: row;
+    padding: 2rem;
+  }
+  
+  .dessert-photo, .dessert-details {
+    padding: .5rem;
+    flex: 1;
+    width: 50%;
+    box-sizing: border-box;
+  }
+  
+  .dessert-photo img {
+    width: 100%;
+    height: 40rem;
+    display: block;
+    object-fit: contain;
+  }
+  
+  .read-more {
+    background-color: white;
+    color: red;
+    border: none;
+    border-radius: 5px;
+    padding: 5px 10px;
+    cursor: pointer;
+  }
+  
+  .edit-delete {
+    display: flex;
+    gap: 1rem; 
+  }
+  .edit-b {
+    background-color: #007bff;
+    color: white;
+    padding: .6rem;
+    border: none;
+    border-radius: .3rem;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+  }
+  
+  .delete-b {
+    background-color: red;
+    color: white;
+    padding: .6rem;
+    border: none;
+    border-radius: .3rem;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+  }
+  
+  .edit-i, .delete-i {
+    margin-right: .2rem;
+    font-weight: bold;
+  }
+  
+  .toast-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 100%;
+    pointer-events: none; /* Allow clicks to pass through */
+  }
+  
+  .toast {
+    background-color: #333;
+    color: #fff;
+    padding: 16px;
+    border-radius: 8px;
+    font-size: 16px;
+    pointer-events: all; /* Enable interaction with the toast */
+  }
+  
+  .toast-button {
+    background-color: #007bff;
+    color: white;
+    padding: 8px 16px;
+    border: none;
+    border-radius: 4px;
+    margin: 0 5px;
+    cursor: pointer;
+  }
+  
+  .toast-button:hover {
+    background-color: #0056b3;
+  }
+  
+  .read-more:hover {
+    background-color: white;
+    font-weight: bold;
+  }
+  
+  .go-back {
+    display: flex;
+    justify-content: center;  /* Center horizontally */
+    align-items: center;  /* Center vertically */
+    padding: 10px;  /* Adjust based on your design */
+    margin: 20px 0;  /* Adjust based on your design */
+    background-color: #f5f5f5;  /* Optional: light background */
+    border-radius: 5px;  /* Optional: rounded corners */
+  }
+  
+  .goback-button {
+    background-color: #007bff;  /* Primary color (adjust to your design) */
+    color: white;  /* Text color */
+    border: none;  /* Remove default border */
+    padding: 10px 20px;  /* Adjust based on your design */
+    font-size: 16px;  /* Adjust based on your design */
+    cursor: pointer;  /* Pointer cursor */
+    border-radius: 5px;  /* Rounded corners */
+    transition: background-color 0.3s, transform 0.3s;  /* Smooth transitions */
+  }
+  
+  .goback-button:hover {
+    background-color: #0056b3;  /* Darker shade for hover */
+    transform: translateY(-2px);  /* Slight lift on hover */
+  }
+  
+  
+  @media (max-width: 768px) {
+    .dessert {
+      flex-direction: column;
+    }
+  
+    .dessert-photo, .dessert-details {
+      width: 100%;
+    }
+  }
+  
