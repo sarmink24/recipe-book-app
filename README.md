@@ -6,6 +6,19 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 In the project directory, you can run:
 
+### `npm install`
+
+To install the necessary Node modules.
+
+### `npm install -g json-server`
+
+To install the json-server.
+
+### `json-server --watch src/components/database/db.json --port 5000`
+
+To start the json-server on port 5000.
+
+
 ### `npm start`
 
 Runs the app in the development mode.\
