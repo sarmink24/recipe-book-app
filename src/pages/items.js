@@ -38,6 +38,16 @@ const Items = () => {
     }
   };
 
+  // const fetchRecipes = async () => {
+  //   try {
+  //     const response = await axios.get("http://localhost:8000/api/recipes/");
+  //     setRecipes(response.data.desserts);
+  //     setFilteredRecipes(response.data.desserts);
+  //   } catch (error) {
+  //     console.error("Error fetching recipes:", error);
+  //   }
+  // };
+
   useEffect(() => {
     fetchRecipes();
   }, []);
